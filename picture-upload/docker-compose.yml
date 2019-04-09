@@ -12,9 +12,9 @@ services:
       - photo-filter
     entrypoint: npm run prod
     environment:
-      AWS_ACCESS_KEY_ID:
-      AWS_REGION:
-      AWS_SECRET_ACCESS_KEY:
+      AWS_ACCESS_KEY_ID: AKIAIO2DHOJIQP5YXENA
+      AWS_REGION: eu-west-1
+      AWS_SECRET_ACCESS_KEY: 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
       DEBUG:
       DOCKER_COMPOSE: 'true'
       FILTER_HOST:
@@ -42,8 +42,8 @@ services:
       - "3001:3001"
     entrypoint: npm run prod
     environment:
-      AWS_ACCESS_KEY_ID:
-      AWS_REGION:
-      AWS_SECRET_ACCESS_KEY:
+      AWS_ACCESS_KEY_ID: AKIAIO2DHOJIQP5YXENA
+      AWS_REGION: eu-west-1
+      AWS_SECRET_ACCESS_KEY: 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
       PORT:
       STAGE:
