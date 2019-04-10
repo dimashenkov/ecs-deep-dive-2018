@@ -27,9 +27,9 @@ Resources:
                 # Only allow inbound access to ECS from the ELB adn privat subnets
                 - SourceSecurityGroupId: !Ref LoadBalancerSecurityGroup
                   IpProtocol: -1
-                - CidrIp: !Ref PrivateSubnet1CIDR
+                - CidrIp: 10.0.24.0/21
                   IpProtocol: -1
-                - CidrIp: !Ref PrivateSubnet2CIDR
+                - CidrIp: 10.0.32.0/21
                   IpProtocol: -1
             Tags:
                 - Key: Name
